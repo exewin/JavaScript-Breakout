@@ -1,0 +1,42 @@
+body
+{
+	background-color:#99c;
+	text-align:center;
+}
+
+#canv
+{
+	border:1px solid #000;
+	background-color:#ccc;
+	cursor: none;
+}
+
+.main
+{
+	background-color:#ccf;
+	text-align:center;
+	width:800px;
+	margin:auto;
+	border:1px solid #111;
+}
+
+.left
+{
+	float:left;
+	padding:10px;
+	display:inline-block;
+	border:2px solid #111;
+	margin-left:20px;
+}
+
+.right
+{
+	display:inline-block;
+}
+
+.bottom
+{
+	padding:5px;
+	background-color:#aad;
+	clear:both;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+	<title>JavaScript Breakout</title>
+	<link rel="Stylesheet" href="breakout.css">
+	</head>
+
+	<div class="main">
+	
+	<h1>JavaScript Breakout</h1>
+
+	<div class="left">
+	<h3>Score:</h3>
+	<div id="score">0</div>
+	</div>
+
+	<div class="right">
+	<canvas id="canv" width="640" height="400" onmousemove="paddleMove()"></canvas>
+	<!--
+	you can change script src to switch level
+	-->
+	<script src="levels/level2.js"></script>
+	<script src="core.js"></script>
+	</div>
+
+	<div class="bottom">by <a href="http://exewin.github.io">exewin</a> 2018</div>
+	
+	</div>
+
+
+</html>
